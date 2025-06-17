@@ -50,6 +50,10 @@ def binding_mechanism(data : list):
                 node_struct = columns[2].split(".")[2]
             except:
                 continue
+            try:
+                in_or_out = 1 if columns[1] == "Вход" else 2
+            except:
+                in_or_out = 0
 
             node = check_node(node_struct)
 
@@ -118,6 +122,51 @@ def binding_mechanism(data : list):
                         columns[5] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.{node[1]}.{device}.SetAuto"
                     case "Ручной режим":
                         columns[5] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.{node[1]}.{device}.SetManual"
+
+            if "Pump" in device:
+                match columns[1]:
+                    case "Фоновый индикатор":
+                        columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.{node[0]}.{device}.Background"
+                    case "Центральный индикатор":
+                        columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.{node[0]}.{device}.Center"
+                    case "Статус":
+                        columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.{node[0]}.{device}.AlarmCode"
+                    case "Текущее время работы, ч":
+                        columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.{node[0]}.{device}.ActiveTime"
+                    case "Суммарная наработка, ч":
+                        columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.{node[0]}.{device}.OpTime"
+                    case "Запускается":
+                        columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.{node[0]}.{device}.OriginalState.InProcessStart"
+                    case "Останавливается":
+                        columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.{node[0]}.{device}.OriginalState.InProcessStop"
+                    case "СТАРТ":
+                        columns[5] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.{node[1]}.{device}.StartManual"
+                    case "СТОП":
+                        columns[5] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.{node[1]}.{device}.StopManual"
+                    case "СБРОС":
+                        columns[5] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.{node[1]}.{device}.ResetPumpFailure"
+                    case "Сброс наработки":
+                        columns[5] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.{node[1]}.{device}.ResetOP"
+                    case "Ручной режим":
+                        columns[5] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.{node[1]}.{device}.SetManual"
+                match columns[2].split(".")[5]:
+                    case "Блокировка":
+                        if in_or_out == 1:
+                            columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CFG.scadaConf.{node[0]}.{device}.Block.Вход"
+                        elif in_or_out == 2:
+                            columns[5] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CFG.scadaConf.{node[0]}.{device}.Block.Выход"
+                    case "Включить защиту":
+                        if in_or_out == 1:
+                            columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CFG.scadaConf.{node[0]}.{device}.EnableTechnologicalProtection.Вход"
+                        elif in_or_out == 2:
+                            columns[5] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CFG.scadaConf.{node[0]}.{device}.EnableTechnologicalProtection.Выход"
+                    case "Игнорирование аварии":
+                        if in_or_out == 1:
+                            columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CFG.scadaConf.{node[0]}.{device}.IgnoreError.Вход"
+                        elif in_or_out == 2:
+                            columns[5] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CFG.scadaConf.{node[0]}.{device}.IgnoreError.Выход"
+
+
 
                         
         modified_line = ";".join(columns)
@@ -222,10 +271,13 @@ def binding_ai(data : list):
 
                     case "Выход сигнала за верхнюю аварийную границу":
                         columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.SIGNALS.{target}.Processed.State.Alarm_HH.Вход"
+
                     case "Выход сигнала за верхнюю предупредительную границу":
                         columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.SIGNALS.{target}.Processed.State.Alarm_H.Вход"
+
                     case "Выход сигнала за нижнюю предупредительную границу":
                         columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.SIGNALS.{target}.Processed.State.Alarm_L.Вход"
+
                     case "Выход сигнала за нижнюю аварийную границу":
                         columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.SIGNALS.{target}.Processed.State.Alarm_LL.Вход"
 
@@ -240,8 +292,8 @@ def binding_ai(data : list):
     return modified_data
 
 
-# modified_data = binding_mechanism(open_csv('podvyaz_in.csv'))
-modified_data = binding_ai(open_csv('ai_podvyaz.csv'))
+modified_data = binding_mechanism(open_csv('podvyaz_in.csv'))
+#modified_data = binding_ai(open_csv('ai_podvyaz.csv'))
 with open('priem_peredacha_out.csv', 'w', encoding='utf-8-sig', newline='') as file:
     file.write("\n".join(modified_data))
     print("Файл 'priem_peredacha_out.csv' создан")
