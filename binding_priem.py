@@ -166,7 +166,32 @@ def binding_mechanism(data : list):
                         elif in_or_out == 2:
                             columns[5] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CFG.scadaConf.{node[0]}.{device}.IgnoreError.Выход"
 
-
+            if "Scraper" in device:
+                match columns[1]:
+                    case "Слово состояния":
+                        columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.{node[0]}.{device}.Background"
+                    case "Слово положения":
+                        columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.{node[0]}.{device}.Center"
+                    case "Запускается":
+                        columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.{node[0]}.{device}.OriginalState.InProcessStart"
+                    case "Останавливается":
+                        columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.{node[0]}.{device}.OriginalState.InProcessStop"
+                    case "Текстовый статус":
+                        columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.{node[0]}.{device}.AlarmCode"
+                    case "Ключ управления":
+                        columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.{node[0]}.{device}.key"
+                    case "Режим":
+                        columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.{node[0]}.{device}.OriginalState.Auto"
+                    case "ПУСК":
+                        columns[5] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.{node[1]}.{device}.StartManual"
+                    case "СТОП":
+                        columns[5] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.{node[1]}.{device}.StopManual"
+                    case "СБРОС":
+                        columns[5] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.{node[1]}.{device}.ResetEngineFailure"
+                    case "Автоматический режим":
+                        columns[5] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.{node[1]}.{device}.SetAuto"
+                    case "Ручной режим":
+                        columns[5] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.{node[1]}.{device}.SetManual"
 
                         
         modified_line = ";".join(columns)

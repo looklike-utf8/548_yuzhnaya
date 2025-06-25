@@ -1,4 +1,4 @@
-﻿Property~Id элемента~Id;Property~Имя~DisplayName;Property~Полное имя~FullName;Property~Классификация~ItemTypeDisplayName;Link~Прием значения из~MasterSCADA.ReadValue;Link~Передача значения в~MasterSCADA.ReadValue
+﻿Property~Id~Id;Property~Имя~DisplayName;Property~Полное имя~FullName;Property~Классификация~ItemTypeDisplayName;Link~Прием значения из~MasterSCADA.ReadValue|False;Link~Передача значения в~MasterSCADA.ReadValue|True
 2227018;Название механизма;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Gate_ZP_2_1.Название механизма;MasterSCADA.Attribute;;
 2227019;Текущий режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Gate_ZP_2_1.Текущий режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Gate_ZP_2_1.AlarmCode.Вход;
 2227020;Текущее положение;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Gate_ZP_2_1.Текущее положение;MasterSCADA.Attribute;;
@@ -323,7 +323,7 @@
 2288992;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_1.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_1.Center;
 2288993;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_1.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_1.OriginalState.InProcessStart;
 2288994;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_1.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_1.OriginalState.InProcessStop;
-2288995;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_1.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_1.AlarmCode;
+2288995;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_1.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_1.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_small_2_1_1.Текстовый статус
 2288996;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_1.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_1.key;
 2288997;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_1.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_1.OriginalState.Auto;
 2315316;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_1.Порядковый номер;MasterSCADA.Attribute;;
@@ -346,7 +346,7 @@
 2289289;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_2.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_2.Center;
 2289290;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_2.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_2.OriginalState.InProcessStart;
 2289291;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_2.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_2.OriginalState.InProcessStop;
-2289292;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_2.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_2.AlarmCode;
+2289292;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_2.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_2.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_small_2_1_2.Текстовый статус
 2289293;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_2.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_2.key;
 2289294;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_2.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_2.OriginalState.Auto;
 2315630;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_2.Порядковый номер;MasterSCADA.Attribute;;
@@ -369,7 +369,7 @@
 2289586;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_3.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_3.Center;
 2289587;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_3.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_3.OriginalState.InProcessStart;
 2289588;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_3.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_3.OriginalState.InProcessStop;
-2289589;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_3.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_3.AlarmCode;
+2289589;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_3.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_3.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_small_2_1_3.Текстовый статус
 2289590;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_3.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_3.key;
 2289591;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_3.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_3.OriginalState.Auto;
 2315944;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_3.Порядковый номер;MasterSCADA.Attribute;;
@@ -392,7 +392,7 @@
 2289883;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_4.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_4.Center;
 2289884;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_4.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_4.OriginalState.InProcessStart;
 2289885;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_4.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_4.OriginalState.InProcessStop;
-2289886;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_4.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_4.AlarmCode;
+2289886;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_4.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_4.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_small_2_1_4.Текстовый статус
 2289887;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_4.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_4.key;
 2289888;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_4.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_4.OriginalState.Auto;
 2316258;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_4.Порядковый номер;MasterSCADA.Attribute;;
@@ -415,7 +415,7 @@
 2290180;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_5.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_5.Center;
 2290181;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_5.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_5.OriginalState.InProcessStart;
 2290182;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_5.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_5.OriginalState.InProcessStop;
-2290183;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_5.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_5.AlarmCode;
+2290183;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_5.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_5.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_small_2_1_5.Текстовый статус
 2290184;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_5.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_5.key;
 2290185;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_5.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_5.OriginalState.Auto;
 2316572;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_5.Порядковый номер;MasterSCADA.Attribute;;
@@ -438,7 +438,7 @@
 2290477;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_6.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_6.Center;
 2290478;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_6.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_6.OriginalState.InProcessStart;
 2290479;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_6.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_6.OriginalState.InProcessStop;
-2290480;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_6.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_6.AlarmCode;
+2290480;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_6.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_6.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_small_2_1_6.Текстовый статус
 2290481;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_6.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_6.key;
 2290482;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_6.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_1_6.OriginalState.Auto;
 2316886;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_1_6.Порядковый номер;MasterSCADA.Attribute;;
@@ -461,7 +461,7 @@
 2290774;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_1.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_1.Center;
 2290775;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_1.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_1.OriginalState.InProcessStart;
 2290776;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_1.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_1.OriginalState.InProcessStop;
-2290777;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_1.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_1.AlarmCode;
+2290777;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_1.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_1.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_small_2_2_1.Текстовый статус
 2290778;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_1.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_1.key;
 2290779;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_1.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_1.OriginalState.Auto;
 2317200;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_1.Порядковый номер;MasterSCADA.Attribute;;
@@ -484,7 +484,7 @@
 2291071;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_2.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_2.Center;
 2291072;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_2.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_2.OriginalState.InProcessStart;
 2291073;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_2.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_2.OriginalState.InProcessStop;
-2291074;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_2.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_2.AlarmCode;
+2291074;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_2.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_2.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_small_2_2_2.Текстовый статус
 2291075;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_2.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_2.key;
 2291076;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_2.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_2.OriginalState.Auto;
 2317514;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_2.Порядковый номер;MasterSCADA.Attribute;;
@@ -507,7 +507,7 @@
 2291368;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_3.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_3.Center;
 2291369;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_3.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_3.OriginalState.InProcessStart;
 2291370;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_3.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_3.OriginalState.InProcessStop;
-2291371;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_3.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_3.AlarmCode;
+2291371;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_3.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_3.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_small_2_2_3.Текстовый статус
 2291372;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_3.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_3.key;
 2291373;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_3.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_3.OriginalState.Auto;
 2317828;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_3.Порядковый номер;MasterSCADA.Attribute;;
@@ -530,7 +530,7 @@
 2291665;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_4.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_4.Center;
 2291666;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_4.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_4.OriginalState.InProcessStart;
 2291667;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_4.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_4.OriginalState.InProcessStop;
-2291668;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_4.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_4.AlarmCode;
+2291668;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_4.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_4.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_small_2_2_4.Текстовый статус
 2291669;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_4.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_4.key;
 2291670;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_4.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_4.OriginalState.Auto;
 2318142;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_4.Порядковый номер;MasterSCADA.Attribute;;
@@ -553,7 +553,7 @@
 2291962;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_6.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_6.Center;
 2291963;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_6.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_6.OriginalState.InProcessStart;
 2291964;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_6.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_6.OriginalState.InProcessStop;
-2291965;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_6.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_6.AlarmCode;
+2291965;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_6.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_6.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_small_2_2_6.Текстовый статус
 2291966;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_6.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_6.key;
 2291967;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_6.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_6.OriginalState.Auto;
 2318456;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_6.Порядковый номер;MasterSCADA.Attribute;;
@@ -576,7 +576,7 @@
 2292259;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_5.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_5.Center;
 2292260;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_5.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_5.OriginalState.InProcessStart;
 2292261;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_5.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_5.OriginalState.InProcessStop;
-2292262;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_5.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_5.AlarmCode;
+2292262;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_5.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_5.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_small_2_2_5.Текстовый статус
 2292263;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_5.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_5.key;
 2292264;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_5.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_5.OriginalState.Auto;
 2318770;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_5.Порядковый номер;MasterSCADA.Attribute;;
@@ -599,7 +599,7 @@
 2292556;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_7.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_7.Center;
 2292557;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_7.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_7.OriginalState.InProcessStart;
 2292558;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_7.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_7.OriginalState.InProcessStop;
-2292559;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_7.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_7.AlarmCode;
+2292559;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_7.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_7.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_small_2_2_7.Текстовый статус
 2292560;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_7.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_7.key;
 2292561;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_7.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_7.OriginalState.Auto;
 2319084;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_7.Порядковый номер;MasterSCADA.Attribute;;
@@ -622,7 +622,7 @@
 2292853;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_8.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_8.Center;
 2292854;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_8.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_8.OriginalState.InProcessStart;
 2292855;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_8.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_8.OriginalState.InProcessStop;
-2292856;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_8.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_8.AlarmCode;
+2292856;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_8.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_8.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_small_2_2_8.Текстовый статус
 2292857;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_8.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_8.key;
 2292858;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_8.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_8.OriginalState.Auto;
 2319398;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_8.Порядковый номер;MasterSCADA.Attribute;;
@@ -645,7 +645,7 @@
 2293150;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_9.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_9.Center;
 2293151;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_9.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_9.OriginalState.InProcessStart;
 2293152;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_9.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_9.OriginalState.InProcessStop;
-2293153;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_9.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_9.AlarmCode;
+2293153;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_9.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_9.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_small_2_2_9.Текстовый статус
 2293154;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_9.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_9.key;
 2293155;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_9.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_9.OriginalState.Auto;
 2319712;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_9.Порядковый номер;MasterSCADA.Attribute;;
@@ -668,7 +668,7 @@
 2293447;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_10.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_10.Center;
 2293448;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_10.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_10.OriginalState.InProcessStart;
 2293449;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_10.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_10.OriginalState.InProcessStop;
-2293450;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_10.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_10.AlarmCode;
+2293450;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_10.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_10.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_small_2_2_10.Текстовый статус
 2293451;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_10.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_10.key;
 2293452;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_10.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_10.OriginalState.Auto;
 2320026;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_10.Порядковый номер;MasterSCADA.Attribute;;
@@ -691,7 +691,7 @@
 2293744;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_11.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_11.Center;
 2293745;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_11.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_11.OriginalState.InProcessStart;
 2293746;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_11.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_11.OriginalState.InProcessStop;
-2293747;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_11.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_11.AlarmCode;
+2293747;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_11.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_11.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_small_2_2_11.Текстовый статус
 2293748;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_11.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_11.key;
 2293749;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_11.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_11.OriginalState.Auto;
 2320340;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_11.Порядковый номер;MasterSCADA.Attribute;;
@@ -714,7 +714,7 @@
 2294041;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_1.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_1.Center;
 2294042;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_1.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_1.OriginalState.InProcessStart;
 2294043;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_1.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_1.OriginalState.InProcessStop;
-2294044;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_1.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_1.AlarmCode;
+2294044;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_1.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_1.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_big_2_3_1.Текстовый статус
 2294045;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_1.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_1.key;
 2294046;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_1.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_1.OriginalState.Auto;
 2320654;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_1.Порядковый номер;MasterSCADA.Attribute;;
@@ -737,7 +737,7 @@
 2294338;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_12.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_12.Center;
 2294339;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_12.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_12.OriginalState.InProcessStart;
 2294340;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_12.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_12.OriginalState.InProcessStop;
-2294341;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_12.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_12.AlarmCode;
+2294341;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_12.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_12.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_small_2_2_12.Текстовый статус
 2294342;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_12.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_12.key;
 2294343;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_12.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_2_12.OriginalState.Auto;
 2320968;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_2_12.Порядковый номер;MasterSCADA.Attribute;;
@@ -760,7 +760,7 @@
 2294635;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_2.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_2.Center;
 2294636;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_2.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_2.OriginalState.InProcessStart;
 2294637;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_2.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_2.OriginalState.InProcessStop;
-2294638;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_2.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_2.AlarmCode;
+2294638;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_2.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_2.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_big_2_3_2.Текстовый статус
 2294639;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_2.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_2.key;
 2294640;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_2.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_2.OriginalState.Auto;
 2321282;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_2.Порядковый номер;MasterSCADA.Attribute;;
@@ -783,7 +783,7 @@
 2294932;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_3.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_3.Center;
 2294933;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_3.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_3.OriginalState.InProcessStart;
 2294934;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_3.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_3.OriginalState.InProcessStop;
-2294935;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_3.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_3.AlarmCode;
+2294935;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_3.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_3.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_big_2_3_3.Текстовый статус
 2294936;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_3.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_3.key;
 2294937;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_3.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_3.OriginalState.Auto;
 2321596;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_3.Порядковый номер;MasterSCADA.Attribute;;
@@ -806,7 +806,7 @@
 2295229;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_4.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_4.Center;
 2295230;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_4.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_4.OriginalState.InProcessStart;
 2295231;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_4.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_4.OriginalState.InProcessStop;
-2295232;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_4.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_4.AlarmCode;
+2295232;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_4.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_4.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_big_2_3_4.Текстовый статус
 2295233;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_4.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_4.key;
 2295234;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_4.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_4.OriginalState.Auto;
 2321910;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_4.Порядковый номер;MasterSCADA.Attribute;;
@@ -829,7 +829,7 @@
 2295526;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_5.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_5.Center;
 2295527;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_5.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_5.OriginalState.InProcessStart;
 2295528;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_5.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_5.OriginalState.InProcessStop;
-2295529;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_5.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_5.AlarmCode;
+2295529;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_5.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_5.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_big_2_3_5.Текстовый статус
 2295530;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_5.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_5.key;
 2295531;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_5.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_5.OriginalState.Auto;
 2322224;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_5.Порядковый номер;MasterSCADA.Attribute;;
@@ -852,7 +852,7 @@
 2295823;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_6.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_6.Center;
 2295824;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_6.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_6.OriginalState.InProcessStart;
 2295825;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_6.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_6.OriginalState.InProcessStop;
-2295826;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_6.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_6.AlarmCode;
+2295826;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_6.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_6.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_big_2_3_6.Текстовый статус
 2295827;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_6.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_6.key;
 2295828;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_6.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_6.OriginalState.Auto;
 2322538;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_6.Порядковый номер;MasterSCADA.Attribute;;
@@ -875,7 +875,7 @@
 2296120;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_7.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_7.Center;
 2296121;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_7.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_7.OriginalState.InProcessStart;
 2296122;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_7.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_7.OriginalState.InProcessStop;
-2296123;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_7.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_7.AlarmCode;
+2296123;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_7.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_7.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_big_2_3_7.Текстовый статус
 2296124;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_7.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_7.key;
 2296125;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_7.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_7.OriginalState.Auto;
 2322852;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_7.Порядковый номер;MasterSCADA.Attribute;;
@@ -898,7 +898,7 @@
 2296417;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_8.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_8.Center;
 2296418;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_8.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_8.OriginalState.InProcessStart;
 2296419;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_8.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_8.OriginalState.InProcessStop;
-2296420;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_8.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_8.AlarmCode;
+2296420;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_8.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_8.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_big_2_3_8.Текстовый статус
 2296421;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_8.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_8.key;
 2296422;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_8.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_8.OriginalState.Auto;
 2323166;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_8.Порядковый номер;MasterSCADA.Attribute;;
@@ -921,7 +921,7 @@
 2296714;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_9.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_9.Center;
 2296715;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_9.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_9.OriginalState.InProcessStart;
 2296716;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_9.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_9.OriginalState.InProcessStop;
-2296717;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_9.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_9.AlarmCode;
+2296717;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_9.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_9.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_big_2_3_9.Текстовый статус
 2296718;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_9.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_9.key;
 2296719;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_9.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_9.OriginalState.Auto;
 2323480;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_9.Порядковый номер;MasterSCADA.Attribute;;
@@ -944,7 +944,7 @@
 2297011;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_10.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_10.Center;
 2297012;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_10.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_10.OriginalState.InProcessStart;
 2297013;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_10.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_10.OriginalState.InProcessStop;
-2297014;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_10.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_10.AlarmCode;
+2297014;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_10.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_10.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_big_2_3_10.Текстовый статус
 2297015;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_10.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_10.key;
 2297016;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_10.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_10.OriginalState.Auto;
 2323794;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_10.Порядковый номер;MasterSCADA.Attribute;;
@@ -967,7 +967,7 @@
 2297308;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_11.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_11.Center;
 2297309;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_11.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_11.OriginalState.InProcessStart;
 2297310;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_11.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_11.OriginalState.InProcessStop;
-2297311;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_11.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_11.AlarmCode;
+2297311;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_11.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_11.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_big_2_3_11.Текстовый статус
 2297312;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_11.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_11.key;
 2297313;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_11.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_11.OriginalState.Auto;
 2324108;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_11.Порядковый номер;MasterSCADA.Attribute;;
@@ -990,7 +990,7 @@
 2297605;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_12.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_12.Center;
 2297606;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_12.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_12.OriginalState.InProcessStart;
 2297607;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_12.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_12.OriginalState.InProcessStop;
-2297608;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_12.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_12.AlarmCode;
+2297608;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_12.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_12.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.flocculation_chamber_big_2_3_12.Текстовый статус
 2297609;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_12.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_12.key;
 2297610;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_12.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Mixer_Pos_2_3_12.OriginalState.Auto;
 2324422;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_12.Порядковый номер;MasterSCADA.Attribute;;
@@ -1002,20 +1002,20 @@
 2297637;Вход;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_12.Игнорирование аварии.Вход;MasterSCADA.Attribute;;
 2297641;Выход;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Mixer_Pos_2_3_12.Игнорирование аварии.Выход;MasterSCADA.Attribute;;
 2297893;Наименование;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Наименование;MasterSCADA.Attribute;;
-2297894;ПУСК;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.ПУСК;MasterSCADA.Attribute;;
-2297895;СТОП;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.СТОП;MasterSCADA.Attribute;;
-2297896;СБРОС;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.СБРОС;MasterSCADA.Attribute;;
-2297897;Автоматический режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Автоматический режим;MasterSCADA.Attribute;;
-2297898;Ручной режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Ручной режим;MasterSCADA.Attribute;;
+2297894;ПУСК;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.ПУСК;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_1.StartManual
+2297895;СТОП;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.СТОП;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_1.StopManual
+2297896;СБРОС;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.СБРОС;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_1.ResetEngineFailure
+2297897;Автоматический режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Автоматический режим;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_1.SetAuto
+2297898;Ручной режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Ручной режим;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_1.SetManual
 2297899;Местный режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Местный режим;MasterSCADA.Attribute;;
 2297900;Дистанционный режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Дистанционный режим;MasterSCADA.Attribute;;
-2297901;Слово состояния;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Слово состояния;MasterSCADA.Attribute;;
-2297902;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Слово положения;MasterSCADA.Attribute;;
-2297903;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Запускается;MasterSCADA.Attribute;;
-2297904;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Останавливается;MasterSCADA.Attribute;;
-2297905;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Текстовый статус;MasterSCADA.Attribute;;
-2297906;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Ключ управления;MasterSCADA.Attribute;;
-2297907;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Режим;MasterSCADA.Attribute;;
+2297901;Слово состояния;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Слово состояния;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_1.Background;
+2297902;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_1.Center;
+2297903;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_1.OriginalState.InProcessStart;
+2297904;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_1.OriginalState.InProcessStop;
+2297905;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_1.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.sump_2_4_1.Текстовый статус
+2297906;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_1.key;
+2297907;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_1.OriginalState.Auto;
 2324736;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Порядковый номер;MasterSCADA.Attribute;;
 2297908;Время мониторинга;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Время мониторинга;MasterSCADA.Attribute;;
 2297912;Вход;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Блокировка.Вход;MasterSCADA.Attribute;;
@@ -1025,20 +1025,20 @@
 2297934;Вход;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Игнорирование аварии.Вход;MasterSCADA.Attribute;;
 2297938;Выход;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_1.Игнорирование аварии.Выход;MasterSCADA.Attribute;;
 2298190;Наименование;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Наименование;MasterSCADA.Attribute;;
-2298191;ПУСК;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.ПУСК;MasterSCADA.Attribute;;
-2298192;СТОП;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.СТОП;MasterSCADA.Attribute;;
-2298193;СБРОС;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.СБРОС;MasterSCADA.Attribute;;
-2298194;Автоматический режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Автоматический режим;MasterSCADA.Attribute;;
-2298195;Ручной режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Ручной режим;MasterSCADA.Attribute;;
+2298191;ПУСК;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.ПУСК;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_2.StartManual
+2298192;СТОП;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.СТОП;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_2.StopManual
+2298193;СБРОС;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.СБРОС;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_2.ResetEngineFailure
+2298194;Автоматический режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Автоматический режим;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_2.SetAuto
+2298195;Ручной режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Ручной режим;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_2.SetManual
 2298196;Местный режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Местный режим;MasterSCADA.Attribute;;
 2298197;Дистанционный режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Дистанционный режим;MasterSCADA.Attribute;;
-2298198;Слово состояния;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Слово состояния;MasterSCADA.Attribute;;
-2298199;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Слово положения;MasterSCADA.Attribute;;
-2298200;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Запускается;MasterSCADA.Attribute;;
-2298201;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Останавливается;MasterSCADA.Attribute;;
-2298202;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Текстовый статус;MasterSCADA.Attribute;;
-2298203;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Ключ управления;MasterSCADA.Attribute;;
-2298204;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Режим;MasterSCADA.Attribute;;
+2298198;Слово состояния;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Слово состояния;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_2.Background;
+2298199;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_2.Center;
+2298200;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_2.OriginalState.InProcessStart;
+2298201;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_2.OriginalState.InProcessStop;
+2298202;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_2.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.sump_2_4_2.Текстовый статус
+2298203;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_2.key;
+2298204;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_2.OriginalState.Auto;
 2325050;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Порядковый номер;MasterSCADA.Attribute;;
 2298205;Время мониторинга;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Время мониторинга;MasterSCADA.Attribute;;
 2298209;Вход;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Блокировка.Вход;MasterSCADA.Attribute;;
@@ -1048,20 +1048,20 @@
 2298231;Вход;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Игнорирование аварии.Вход;MasterSCADA.Attribute;;
 2298235;Выход;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_2.Игнорирование аварии.Выход;MasterSCADA.Attribute;;
 2298487;Наименование;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Наименование;MasterSCADA.Attribute;;
-2298488;ПУСК;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.ПУСК;MasterSCADA.Attribute;;
-2298489;СТОП;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.СТОП;MasterSCADA.Attribute;;
-2298490;СБРОС;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.СБРОС;MasterSCADA.Attribute;;
-2298491;Автоматический режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Автоматический режим;MasterSCADA.Attribute;;
-2298492;Ручной режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Ручной режим;MasterSCADA.Attribute;;
+2298488;ПУСК;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.ПУСК;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_3.StartManual
+2298489;СТОП;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.СТОП;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_3.StopManual
+2298490;СБРОС;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.СБРОС;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_3.ResetEngineFailure
+2298491;Автоматический режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Автоматический режим;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_3.SetAuto
+2298492;Ручной режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Ручной режим;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_3.SetManual
 2298493;Местный режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Местный режим;MasterSCADA.Attribute;;
 2298494;Дистанционный режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Дистанционный режим;MasterSCADA.Attribute;;
-2298495;Слово состояния;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Слово состояния;MasterSCADA.Attribute;;
-2298496;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Слово положения;MasterSCADA.Attribute;;
-2298497;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Запускается;MasterSCADA.Attribute;;
-2298498;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Останавливается;MasterSCADA.Attribute;;
-2298499;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Текстовый статус;MasterSCADA.Attribute;;
-2298500;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Ключ управления;MasterSCADA.Attribute;;
-2298501;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Режим;MasterSCADA.Attribute;;
+2298495;Слово состояния;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Слово состояния;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_3.Background;
+2298496;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_3.Center;
+2298497;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_3.OriginalState.InProcessStart;
+2298498;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_3.OriginalState.InProcessStop;
+2298499;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_3.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.sump_2_4_3.Текстовый статус
+2298500;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_3.key;
+2298501;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_3.OriginalState.Auto;
 2325364;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Порядковый номер;MasterSCADA.Attribute;;
 2298502;Время мониторинга;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Время мониторинга;MasterSCADA.Attribute;;
 2298506;Вход;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Блокировка.Вход;MasterSCADA.Attribute;;
@@ -1071,20 +1071,20 @@
 2298528;Вход;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Игнорирование аварии.Вход;MasterSCADA.Attribute;;
 2298532;Выход;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_3.Игнорирование аварии.Выход;MasterSCADA.Attribute;;
 2298784;Наименование;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Наименование;MasterSCADA.Attribute;;
-2298785;ПУСК;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.ПУСК;MasterSCADA.Attribute;;
-2298786;СТОП;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.СТОП;MasterSCADA.Attribute;;
-2298787;СБРОС;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.СБРОС;MasterSCADA.Attribute;;
-2298788;Автоматический режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Автоматический режим;MasterSCADA.Attribute;;
-2298789;Ручной режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Ручной режим;MasterSCADA.Attribute;;
+2298785;ПУСК;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.ПУСК;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_4.StartManual
+2298786;СТОП;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.СТОП;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_4.StopManual
+2298787;СБРОС;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.СБРОС;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_4.ResetEngineFailure
+2298788;Автоматический режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Автоматический режим;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_4.SetAuto
+2298789;Ручной режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Ручной режим;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_4.SetManual
 2298790;Местный режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Местный режим;MasterSCADA.Attribute;;
 2298791;Дистанционный режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Дистанционный режим;MasterSCADA.Attribute;;
-2298792;Слово состояния;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Слово состояния;MasterSCADA.Attribute;;
-2298793;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Слово положения;MasterSCADA.Attribute;;
-2298794;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Запускается;MasterSCADA.Attribute;;
-2298795;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Останавливается;MasterSCADA.Attribute;;
-2298796;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Текстовый статус;MasterSCADA.Attribute;;
-2298797;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Ключ управления;MasterSCADA.Attribute;;
-2298798;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Режим;MasterSCADA.Attribute;;
+2298792;Слово состояния;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Слово состояния;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_4.Background;
+2298793;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_4.Center;
+2298794;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_4.OriginalState.InProcessStart;
+2298795;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_4.OriginalState.InProcessStop;
+2298796;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_4.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.sump_2_4_4.Текстовый статус
+2298797;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_4.key;
+2298798;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_4.OriginalState.Auto;
 2325678;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Порядковый номер;MasterSCADA.Attribute;;
 2298799;Время мониторинга;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Время мониторинга;MasterSCADA.Attribute;;
 2298803;Вход;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Блокировка.Вход;MasterSCADA.Attribute;;
@@ -1094,20 +1094,20 @@
 2298825;Вход;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Игнорирование аварии.Вход;MasterSCADA.Attribute;;
 2298829;Выход;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_4.Игнорирование аварии.Выход;MasterSCADA.Attribute;;
 2299081;Наименование;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Наименование;MasterSCADA.Attribute;;
-2299082;ПУСК;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.ПУСК;MasterSCADA.Attribute;;
-2299083;СТОП;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.СТОП;MasterSCADA.Attribute;;
-2299084;СБРОС;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.СБРОС;MasterSCADA.Attribute;;
-2299085;Автоматический режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Автоматический режим;MasterSCADA.Attribute;;
-2299086;Ручной режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Ручной режим;MasterSCADA.Attribute;;
+2299082;ПУСК;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.ПУСК;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_5.StartManual
+2299083;СТОП;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.СТОП;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_5.StopManual
+2299084;СБРОС;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.СБРОС;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_5.ResetEngineFailure
+2299085;Автоматический режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Автоматический режим;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_5.SetAuto
+2299086;Ручной режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Ручной режим;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_5.SetManual
 2299087;Местный режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Местный режим;MasterSCADA.Attribute;;
 2299088;Дистанционный режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Дистанционный режим;MasterSCADA.Attribute;;
-2299089;Слово состояния;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Слово состояния;MasterSCADA.Attribute;;
-2299090;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Слово положения;MasterSCADA.Attribute;;
-2299091;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Запускается;MasterSCADA.Attribute;;
-2299092;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Останавливается;MasterSCADA.Attribute;;
-2299093;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Текстовый статус;MasterSCADA.Attribute;;
-2299094;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Ключ управления;MasterSCADA.Attribute;;
-2299095;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Режим;MasterSCADA.Attribute;;
+2299089;Слово состояния;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Слово состояния;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_5.Background;
+2299090;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_5.Center;
+2299091;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_5.OriginalState.InProcessStart;
+2299092;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_5.OriginalState.InProcessStop;
+2299093;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_5.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.sump_2_4_5.Текстовый статус
+2299094;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_5.key;
+2299095;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_5.OriginalState.Auto;
 2325992;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Порядковый номер;MasterSCADA.Attribute;;
 2299096;Время мониторинга;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Время мониторинга;MasterSCADA.Attribute;;
 2299100;Вход;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Блокировка.Вход;MasterSCADA.Attribute;;
@@ -1117,20 +1117,20 @@
 2299122;Вход;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Игнорирование аварии.Вход;MasterSCADA.Attribute;;
 2299126;Выход;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_5.Игнорирование аварии.Выход;MasterSCADA.Attribute;;
 2299378;Наименование;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Наименование;MasterSCADA.Attribute;;
-2299379;ПУСК;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.ПУСК;MasterSCADA.Attribute;;
-2299380;СТОП;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.СТОП;MasterSCADA.Attribute;;
-2299381;СБРОС;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.СБРОС;MasterSCADA.Attribute;;
-2299382;Автоматический режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Автоматический режим;MasterSCADA.Attribute;;
-2299383;Ручной режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Ручной режим;MasterSCADA.Attribute;;
+2299379;ПУСК;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.ПУСК;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_6.StartManual
+2299380;СТОП;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.СТОП;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_6.StopManual
+2299381;СБРОС;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.СБРОС;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_6.ResetEngineFailure
+2299382;Автоматический режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Автоматический режим;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_6.SetAuto
+2299383;Ручной режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Ручной режим;MasterSCADA.Attribute;;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.Node2.Scraper_Pos_2_4_6.SetManual
 2299384;Местный режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Местный режим;MasterSCADA.Attribute;;
 2299385;Дистанционный режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Дистанционный режим;MasterSCADA.Attribute;;
-2299386;Слово состояния;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Слово состояния;MasterSCADA.Attribute;;
-2299387;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Слово положения;MasterSCADA.Attribute;;
-2299388;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Запускается;MasterSCADA.Attribute;;
-2299389;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Останавливается;MasterSCADA.Attribute;;
-2299390;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Текстовый статус;MasterSCADA.Attribute;;
-2299391;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Ключ управления;MasterSCADA.Attribute;;
-2299392;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Режим;MasterSCADA.Attribute;;
+2299386;Слово состояния;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Слово состояния;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_6.Background;
+2299387;Слово положения;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Слово положения;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_6.Center;
+2299388;Запускается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Запускается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_6.OriginalState.InProcessStart;
+2299389;Останавливается;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Останавливается;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_6.OriginalState.InProcessStop;
+2299390;Текстовый статус;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Текстовый статус;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_6.AlarmCode;Объекты.Узел 2 зал отстойников.Окна механизмов.sump_2_4_6.Текстовый статус
+2299391;Ключ управления;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Ключ управления;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_6.key;
+2299392;Режим;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Режим;MasterSCADA.Attribute;Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.node2.Scraper_Pos_2_4_6.OriginalState.Auto;
 2326306;Порядковый номер;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Порядковый номер;MasterSCADA.Attribute;;
 2299393;Время мониторинга;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Время мониторинга;MasterSCADA.Attribute;;
 2299397;Вход;Объекты.Сигналы и экземпляры.Узел 2.Механизмы.Scraper_Pos_2_4_6.Блокировка.Вход;MasterSCADA.Attribute;;
