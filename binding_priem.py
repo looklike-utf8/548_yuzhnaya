@@ -193,6 +193,29 @@ def binding_mechanism(data : list):
                     case "Ручной режим":
                         columns[5] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.CTRL.scadaControl.{node[1]}.{device}.SetManual"
 
+            "Подвязка песковых фильтров"
+            if "Sand_Filter" in device:
+                match columns[1]:
+                    case "Фоновый индикатор":
+                        columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.{node[0]}.{device}.Background.Вход"
+                    case "Центральный индикатор":
+                        columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.{node[0]}.{device}.Center.Вход"
+                    case "Текстовый статус":
+                        columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.{node[0]}.{device}.AlarmCode.Вход"
+                    case "Текущая наработка":
+                        columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.{node[0]}.{device}.ActiveTime.Вход"
+                    case "Сброс наработки":
+                        columns[4] = ""
+                    case "Вывод из работы":
+                        columns[4] = ""
+                match columns[2].split(".")[5]:
+                    case "Уставка наработки":
+                        if in_or_out == 1:
+                            columns[4] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.{node[0]}.{device}.OpTime.Вход"
+                        elif in_or_out == 2:
+                            columns[5] = f"Система.АРМ 1.Протоколы.OPC UA.IEC_DATA.Application.STATES.{node[0]}.{device}.OpTime.Выход"
+                   
+
                         
         modified_line = ";".join(columns)
         modified_data.append(modified_line)
